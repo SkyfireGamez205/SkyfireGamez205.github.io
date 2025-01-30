@@ -16,8 +16,6 @@ function getRandomButton() {
     randomButton.onclick = () => window.location.href = button.link;
 }
 
-function navigate(section) {
-    alert(`You tried going to "${section}". This link has not been implemented yet, Check back soon.`);
 }
 
 window.onload = getRandomButton;
