@@ -1,4 +1,4 @@
-* {
+﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,8 +22,13 @@ body {
 }
 
 @keyframes moveBackground {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 .taskbar {
@@ -38,20 +43,20 @@ body {
     border-radius: 10px;
 }
 
-.taskbar button, footer a {
-    background: #222;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    transition: 0.3s;
-}
+    .taskbar button, footer a {
+        background: #222;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
 
-.taskbar button:hover, footer a:hover {
-    background: #444;
-}
+        .taskbar button:hover, footer a:hover {
+            background: #444;
+        }
 
 footer {
     position: fixed;
@@ -62,7 +67,7 @@ footer {
     gap: 15px;
 }
 
-footer a {
-    text-decoration: none;
-    display: inline-block;
-}
+    footer a {
+        text-decoration: none;
+        display: inline-block;
+    }
