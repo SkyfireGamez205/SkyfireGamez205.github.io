@@ -1,3 +1,4 @@
+    alert(`At this moment the site is unstable, The top buttons wont work but for now this is what I got.`);
 const buttons = [
     { name: "About Me", link: "#" },
     { name: "Projects", link: "#" },
