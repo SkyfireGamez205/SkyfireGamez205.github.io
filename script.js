@@ -1,5 +1,5 @@
 ﻿const buttons = [
-    { name: "About Me", link: "" },
+    { name: "About Me", link: "https://skyfiregamez205.github.io/aboutme/" },
     { name: "Projects", link: "" },
     { name: "Theater", link: "" },
     { name: "YouTube", link: "https://www.youtube.com/@SkyfireGamez" },
