@@ -1,7 +1,7 @@
-﻿const buttons = [
-    { name: "About Me", link: "/aboutme" },
-    { name: "Projects", link: "" },
-    { name: "Theater", link: "" },
+const buttons = [
+    { name: "About Me", link: "#" },
+    { name: "Projects", link: "#" },
+    { name: "Theater", link: "#" },
     { name: "YouTube", link: "https://www.youtube.com/@SkyfireGamez" },
     { name: "Discord", link: "https://discord.gg/P45gJeAJjF" }
 ];
@@ -14,3 +14,9 @@ function getRandomButton() {
     randomButton.textContent = button.name;
     randomButton.onclick = () => window.location.href = button.link;
 }
+
+function navigate(section) {
+    alert(`At the moment these button's have not been implemented yet. ${section}`);
+}
+
+window.onload = getRandomButton;
