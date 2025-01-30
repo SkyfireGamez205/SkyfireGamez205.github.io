@@ -2,7 +2,7 @@
 const buttons = [
     { name: "About Me", link: "#" },
     { name: "Projects", link: "#" },
-    { name: "Theater", link: "/theater/" },
+    { name: "Theater", link: "https://skyfiregamez205.github.io/theater/" },
     { name: "YouTube", link: "https://www.youtube.com/@SkyfireGamez" },
     { name: "Discord", link: "https://discord.gg/P45gJeAJjF" }
 ];
@@ -17,7 +17,7 @@ function getRandomButton() {
 }
 
 function navigate(section) {
-    alert(`You tried going to ${section}. This link has not been implemented yet, Check back soon.`);
+    alert(`You tried going to "${section}". This link has not been implemented yet, Check back soon.`);
 }
 
 window.onload = getRandomButton;
