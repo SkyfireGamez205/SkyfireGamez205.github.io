@@ -2,7 +2,7 @@
 const buttons = [
     { name: "About Me", link: "#" },
     { name: "Projects", link: "#" },
-    { name: "Theater", link: "https://skyfiregamez205.github.io/theater/" },
+    { name: "Theater", link: "../theater/" },
     { name: "YouTube", link: "https://www.youtube.com/@SkyfireGamez" },
     { name: "Discord", link: "https://discord.gg/P45gJeAJjF" }
 ];
